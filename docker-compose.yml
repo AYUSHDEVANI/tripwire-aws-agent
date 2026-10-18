@@ -1,0 +1,22 @@
+services:
+  tripwire-dashboard:
+    build: .
+    container_name: tripwire-dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - TRIPWIRE_MODE=mock
+      - TRIPWIRE_AUDIT_PATH=/app/data/audit.jsonl
+      - CASCADE_ALLOW_THRESHOLD=0.85
+      - CASCADE_ASK_THRESHOLD=0.60
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  # Optional Decider local service container
+  # strands-decider:
+  #   image: ghcr.io/strands-agents/strands-decider:latest
+  #   container_name: strands-decider
+  #   ports:
+  #     - "8099:8099"
+  #   command: ["serve", "--port", "8099"]

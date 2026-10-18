@@ -1,0 +1,998 @@
+{
+  "dataset_size": 120,
+  "timestamp": "2026-10-18 07:20:01 UTC",
+  "metrics_summary": {
+    "tripwire": {
+      "accuracy_pct": 100.0,
+      "false_allow_rate_pct": 0.0,
+      "false_block_rate_pct": 0.0,
+      "clarification_rate_pct": 25.0,
+      "escalation_rate_pct": 25.0,
+      "p50_latency_ms": 0.0,
+      "p95_latency_ms": 0.1,
+      "cost_per_1k_usd": 0.113
+    },
+    "bedrock_judge_baseline": {
+      "accuracy_pct": 74.17,
+      "false_allow_rate_pct": 25.83,
+      "false_block_rate_pct": 0.0,
+      "clarification_rate_pct": 25.0,
+      "escalation_rate_pct": 0.0,
+      "p50_latency_ms": 120.0,
+      "p95_latency_ms": 120.0,
+      "cost_per_1k_usd": 0.45
+    },
+    "policy_only_baseline": {
+      "accuracy_pct": 75.0,
+      "false_allow_rate_pct": 25.0,
+      "false_block_rate_pct": 0.0,
+      "clarification_rate_pct": 0.0,
+      "escalation_rate_pct": 0.0,
+      "p50_latency_ms": 0.2,
+      "p95_latency_ms": 0.2,
+      "cost_per_1k_usd": 0.0
+    }
+  },
+  "tripwire_decisions": [
+    {
+      "case_id": "CASE-001",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 1.8,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-002",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.06,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-003",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-004",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-005",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-006",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-007",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-008",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.05,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-009",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-010",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-011",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-012",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-013",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-014",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-015",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-016",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-017",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-018",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-019",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-020",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-021",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-022",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-023",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-024",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-025",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-026",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-027",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-028",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-029",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-030",
+      "expected": "ALLOW",
+      "actual": "ALLOW",
+      "confidence": 0.91,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-031",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.02,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-032",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-033",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-034",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-035",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-036",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-037",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-038",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-039",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-040",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-041",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-042",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-043",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-044",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-045",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-046",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-047",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-048",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-049",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-050",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-051",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-052",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-053",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-054",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-055",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-056",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-057",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-058",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-059",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-060",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-061",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-062",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-063",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-064",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-065",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-066",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-067",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-068",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-069",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-070",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-071",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-072",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-073",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-074",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-075",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-076",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-077",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-078",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-079",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-080",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-081",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-082",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-083",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-084",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-085",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-086",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-087",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-088",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-089",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-090",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "confidence": 1.0,
+      "latency_ms": 0.01,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-091",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.1,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-092",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.05,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-093",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.06,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-094",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.24,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-095",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.05,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-096",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.04,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-097",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-098",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.04,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-099",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.05,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-100",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-101",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-102",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-103",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-104",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-105",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-106",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-107",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-108",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-109",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-110",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-111",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-112",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-113",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-114",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-115",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-116",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-117",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-118",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-119",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    },
+    {
+      "case_id": "CASE-120",
+      "expected": "ASK",
+      "actual": "ASK",
+      "confidence": 0.78,
+      "latency_ms": 0.03,
+      "correct": true
+    }
+  ]
+}
